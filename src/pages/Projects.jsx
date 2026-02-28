@@ -14,7 +14,7 @@ export function Projects() {
           <h3>🐳 Laboratorios ASIR</h3>
           <p>Despliegue de servicios y scripts.</p>
           <div className="tags">
-             <span>Linux</span><span>Docker</span><span>Bash</span>
+            <span>Linux</span><span>Docker</span><span>Bash</span>
           </div>
         </div>
       </div>
