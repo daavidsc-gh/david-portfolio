@@ -7,8 +7,8 @@ export function Home() {
         <p style={{ fontSize: '1.1rem', color: 'var(--text-secondary)' }}>
           Desarrollador Full Stack con un perfil híbrido único: <strong>Sistemas (ASIR) + Desarrollo (DAM)</strong>.
           <br /><br />
-          Actualmente construyendo soluciones escalables con <strong>Next.js y NestJS</strong>. Gracias a mi background,
-          me encargo tanto de escribir un código limpio y eficiente como de asegurar la infraestructura donde se ejecuta (AWS/Linux).
+          Especializado en construir soluciones escalables con Next.js y NestJS. Gracias a mi background, me encargo tanto de escribir un código limpio y eficiente 
+          como de asegurar la infraestructura donde se ejecuta (AWS/Linux). Actualmente busco mi primera oportunidad profesional para seguir creciendo.
         </p>
       </section>
 

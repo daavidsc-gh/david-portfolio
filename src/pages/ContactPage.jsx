@@ -14,8 +14,8 @@ export function ContactPage() {
     <div className="card">
       <h2>📬 Contacto</h2>
       <p style={{ marginBottom: '2rem', color: 'var(--text-secondary)' }}>
-        ¿Tienes alguna propuesta o quieres hablar sobre desarrollo?
-        Actualmente trabajo como Desarrollador Full Stack, pero siempre estoy abierto a conectar y compartir conocimientos.
+        ¿Tienes alguna propuesta o quieres hablar sobre desarrollo? Actualmente busco nuevos retos profesionales como Desarrollador Full Stack.
+        Siempre estoy abierto a conectar y compartir conocimientos.
       </p>
 
       <div style={{ display: 'grid', gap: '1.5rem' }}>
