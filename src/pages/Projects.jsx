@@ -1,22 +1,40 @@
 export function Projects() {
   return (
     <section className="projects">
-      <h2>Mis Proyectos Destacados</h2>
+      <h2>Mis Proyectos</h2>
       <div className="grid">
-        <div className="card">
-          <h3>🛒 Gestor de Inventario</h3>
-          <p>App completa con Login y Base de Datos.</p>
-          <div className="tags">
-            <span>React</span><span>Spring Boot</span><span>AWS</span>
+        
+        <a 
+          href="https://www.biteq.es/" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="card-link"
+          style={{ textDecoration: 'none', color: 'inherit' }}
+        >
+          <div className="card">
+            
+            {/* Aquí pones la ruta de la captura de pantalla de tu app */}
+            <img 
+              src="/ruta-a-tu-foto-de-biteq.jpg" 
+              alt="Vista previa de la App BiteQ" 
+              style={{ width: '100%', borderRadius: '8px', marginBottom: '12px', objectFit: 'cover' }} 
+            />
+            
+            <h3>🚀 BiteQ</h3>
+            <p>
+              Desarrollo integral de aplicación web desde cero. Interfaces escalables y dinámicas, respaldadas por un backend robusto consumiendo APIs.
+            </p>
+            
+            <div className="tags">
+              <span>Next.js</span>
+              <span>React</span>
+              <span>GraphQL</span>
+              <span>PostgreSQL</span>
+            </div>
+            
           </div>
-        </div>
-        <div className="card">
-          <h3>🐳 Laboratorios ASIR</h3>
-          <p>Despliegue de servicios y scripts.</p>
-          <div className="tags">
-            <span>Linux</span><span>Docker</span><span>Bash</span>
-          </div>
-        </div>
+        </a>
+
       </div>
     </section>
   );
