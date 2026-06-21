@@ -76,7 +76,7 @@ export function Home() {
           >
             <div style={{ height: '180px', width: '100%', overflow: 'hidden', borderBottom: '1px solid var(--border)' }}>
               <img
-                src="/ruta-a-tu-foto-de-biteq.jpg" /* <-- CAMBIA ESTO POR LA RUTA DE TU FOTO DE BITEQ */
+                src="BiteQ.png"
                 alt="Vista previa de BiteQ"
                 style={{ width: '100%', height: '100%', objectFit: 'cover' }}
               />
