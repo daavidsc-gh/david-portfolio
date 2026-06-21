@@ -85,7 +85,7 @@ export function Home() {
             <div style={{ padding: '1.5rem', display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
               <h3 style={{ color: 'var(--text)', marginBottom: '0.5rem' }}>BiteQ</h3>
               <p className="text-muted" style={{ fontSize: '0.9rem', marginBottom: '1rem', flexGrow: 1 }}>
-                Plataforma web premium orientada a la alimentación consciente. Frontend optimizado desarrollado con Next.js, respaldado por un backend escalable en Spring Boot y gestión de datos relacionales con Supabase (SQL).
+                Plataforma integral de nutrición y planificación de comidas. Permite a los usuarios crear rutinas personalizadas, explorar recetas, calcular macros automáticamente y gestionar perfiles de salud. Desarrollada con Next.js, Spring Boot y Supabase (SQL).
               </p>
 
               <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
