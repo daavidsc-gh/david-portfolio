@@ -83,15 +83,16 @@ export function Home() {
             </div>
 
             <div style={{ padding: '1.5rem', display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
-              <h3 style={{ color: 'var(--text)', marginBottom: '0.5rem' }}>🚀 BiteQ</h3>
+              <h3 style={{ color: 'var(--text)', marginBottom: '0.5rem' }}>BiteQ</h3>
               <p className="text-muted" style={{ fontSize: '0.9rem', marginBottom: '1rem', flexGrow: 1 }}>
-                Desarrollo integral de aplicación web. Interfaces escalables y dinámicas, respaldadas por un backend robusto consumiendo APIs GraphQL.
+                Plataforma web premium orientada a la alimentación consciente. Frontend optimizado desarrollado con Next.js, respaldado por un backend escalable en Spring Boot y gestión de datos relacionales con Supabase (SQL).
               </p>
 
               <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
                 <span style={{ fontSize: '0.75rem', padding: '0.2rem 0.6rem', backgroundColor: 'var(--bg-hover)', borderRadius: '4px', border: '1px solid var(--border)' }}>Next.js</span>
-                <span style={{ fontSize: '0.75rem', padding: '0.2rem 0.6rem', backgroundColor: 'var(--bg-hover)', borderRadius: '4px', border: '1px solid var(--border)' }}>React</span>
-                <span style={{ fontSize: '0.75rem', padding: '0.2rem 0.6rem', backgroundColor: 'var(--bg-hover)', borderRadius: '4px', border: '1px solid var(--border)' }}>GraphQL</span>
+                <span style={{ fontSize: '0.75rem', padding: '0.2rem 0.6rem', backgroundColor: 'var(--bg-hover)', borderRadius: '4px', border: '1px solid var(--border)' }}>Spring Boot</span>
+                <span style={{ fontSize: '0.75rem', padding: '0.2rem 0.6rem', backgroundColor: 'var(--bg-hover)', borderRadius: '4px', border: '1px solid var(--border)' }}>Supabase</span>
+                <span style={{ fontSize: '0.75rem', padding: '0.2rem 0.6rem', backgroundColor: 'var(--bg-hover)', borderRadius: '4px', border: '1px solid var(--border)' }}>SQL</span>
               </div>
             </div>
           </a>
