@@ -7,7 +7,7 @@ export function Home() {
         <p style={{ fontSize: '1.1rem', color: 'var(--text-secondary)' }}>
           Desarrollador Full Stack con un perfil híbrido único: <strong>Sistemas (ASIR) + Desarrollo (DAM)</strong>.
           <br /><br />
-          Especializado en construir soluciones escalables con Next.js y NestJS. Gracias a mi background, me encargo tanto de escribir un código limpio y eficiente 
+          Especializado en construir soluciones escalables con Next.js y NestJS. Gracias a mi background, me encargo tanto de escribir un código limpio y eficiente
           como de asegurar la infraestructura donde se ejecuta (AWS/Linux). Actualmente busco mi primera oportunidad profesional para seguir creciendo.
         </p>
       </section>
@@ -67,17 +67,46 @@ export function Home() {
         <h2 style={{ marginBottom: '1rem' }}>Mis Proyectos</h2>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem' }}>
 
-          <div className="card" style={{ padding: '0', overflow: 'hidden', border: '1px dashed var(--accent)' }}>
-            <div style={{ height: '140px', backgroundColor: 'var(--bg-card)', display: 'flex', alignItems: 'center', justifyContent: 'center', borderBottom: '1px solid var(--border)' }}>
+          <a
+            href="https://www.biteq.es/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="card"
+            style={{ textDecoration: 'none', color: 'inherit', padding: '0', overflow: 'hidden', display: 'flex', flexDirection: 'column', transition: 'transform 0.2s', border: '1px solid var(--border)' }}
+          >
+            <div style={{ height: '180px', width: '100%', overflow: 'hidden', borderBottom: '1px solid var(--border)' }}>
+              <img
+                src="/ruta-a-tu-foto-de-biteq.jpg" /* <-- CAMBIA ESTO POR LA RUTA DE TU FOTO DE BITEQ */
+                alt="Vista previa de BiteQ"
+                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+              />
+            </div>
+
+            <div style={{ padding: '1.5rem', display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
+              <h3 style={{ color: 'var(--text)', marginBottom: '0.5rem' }}>🚀 BiteQ</h3>
+              <p className="text-muted" style={{ fontSize: '0.9rem', marginBottom: '1rem', flexGrow: 1 }}>
+                Desarrollo integral de aplicación web. Interfaces escalables y dinámicas, respaldadas por un backend robusto consumiendo APIs GraphQL.
+              </p>
+
+              <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
+                <span style={{ fontSize: '0.75rem', padding: '0.2rem 0.6rem', backgroundColor: 'var(--bg-hover)', borderRadius: '4px', border: '1px solid var(--border)' }}>Next.js</span>
+                <span style={{ fontSize: '0.75rem', padding: '0.2rem 0.6rem', backgroundColor: 'var(--bg-hover)', borderRadius: '4px', border: '1px solid var(--border)' }}>React</span>
+                <span style={{ fontSize: '0.75rem', padding: '0.2rem 0.6rem', backgroundColor: 'var(--bg-hover)', borderRadius: '4px', border: '1px solid var(--border)' }}>GraphQL</span>
+              </div>
+            </div>
+          </a>
+
+          <div className="card" style={{ padding: '0', overflow: 'hidden', border: '1px dashed var(--accent)', display: 'flex', flexDirection: 'column' }}>
+            <div style={{ height: '180px', backgroundColor: 'var(--bg-card)', display: 'flex', alignItems: 'center', justifyContent: 'center', borderBottom: '1px solid var(--border)' }}>
               <img
                 src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=3B82F6&center=true&vCenter=true&width=300&lines=Cocinando+código...;Próximamente+más...;Trabajando+en+ello...;🚀+En+proceso"
                 alt="Typing SVG"
               />
             </div>
-            <div style={{ padding: '1.5rem', textAlign: 'center' }}>
-              <h3 className="text-blue">En Construcción...</h3>
+            <div style={{ padding: '1.5rem', textAlign: 'center', display: 'flex', flexDirection: 'column', flexGrow: 1, justifyContent: 'center' }}>
+              <h3 className="text-blue" style={{ marginBottom: '0.5rem' }}>En Construcción...</h3>
               <p className="text-muted" style={{ fontSize: '0.9rem' }}>
-                Actualmente trabajando en nuevos desarrollos personales utilizando Next.js y GraphQL. ¡Pronto los verás por aquí!
+                Aunque mi foco principal es la infraestructura de BiteQ, siempre estoy trabajando en nuevos desarrollos. ¡Pronto los verás por aquí!
               </p>
             </div>
           </div>
